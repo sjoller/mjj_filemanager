@@ -1,0 +1,258 @@
+@import url('###TEMPLATEPATH###css/silk1.css');
+@import url('###TEMPLATEPATH###css/silk2.css');
+
+.silk {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	text-indent: -99999px;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 2px 3px 0px;
+}
+
+.set1 {
+	background-image: url('###TEMPLATEPATH###icon/silk1.png');
+}
+.set1gray {
+	background-image: url('###TEMPLATEPATH###icon/silk1-gray.png');
+}
+
+.set2 {
+	background-image: url('###TEMPLATEPATH###icon/silk2.png');
+}
+.set2gray {
+	background-image: url('###TEMPLATEPATH###icon/silk2-gray.png');
+}
+
+.div-clr {
+  height: 0px;
+  line-height: 0px;
+  clear: both;
+}
+
+#typo3-inner-docbody {
+	position: relative;
+}
+
+#breadcrumb {
+  position: relative;
+  z-index: 10;
+  padding: 2px;
+  margin: -2px 0px 0px 0px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  width: 600px;
+  float: left;
+}
+
+.breadcrumb-item {
+  border: 1px solid transparent;
+  float: left;
+}
+
+#breadcrumb-dummy {
+  width: 600px;
+  background: transparent;
+  position: absolute;
+  z-index: -5;
+}
+
+.label {
+  float: left;
+  line-height: 16px;
+  height: 16px;
+  border-top: 0px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 0px solid transparent;
+  padding: 0px 2px 0px 2px;
+}
+
+.arrow {
+  background: transparent url('###TEMPLATEPATH###icon/win7bar-arrows.gif') 0px 0px no-repeat;
+  height: 16px;
+  width: 13px;
+  float: left;
+  position: relative;
+}
+
+.arrow ul {
+	list-style-type: none;
+  display: none;
+  position: absolute;
+  top: 16px;
+  left: -1px;
+  border: 1px solid #000000;
+  background: #ffffff;
+  margin: 0px;
+  padding: 5px;
+}
+
+.arrow ul li {
+  background-color: #ffffff;
+  white-space: nowrap;
+  padding: 0px;
+}
+
+.arrow ul li:hover {
+  background-color: #e0e0ff;
+  cursor: pointer;
+ }
+
+.selected {
+  font-weight: bold;
+}
+
+#breadcrumb-textual {
+	display: none;
+	height: 16px;
+	border: 1px solid #000000;
+	line-height: 15px;
+	width: 600px;
+  padding: 2px 2px 2px 4px;
+  float: left;
+}
+
+.fm-misc {
+	
+}
+
+.spacer {
+	background: transparent;
+}
+
+#magicbar {
+	height: 18px;
+	border: 1px solid #000000;
+	line-height: 18px;
+	width: 200px;
+  padding: 2px 2px 2px 4px;
+  margin: -2px 0px 0px 10px;
+  float: left;
+  font-style: italic;
+  color: #c0c0c0;
+}
+
+.item td {
+	height: 16px;
+	padding: 3px;
+	vertical-align: middle;
+	line-height: 16px;
+}
+
+.item td a {
+	line-height: 16px;
+}
+
+.ctrlitem th {
+	padding: 3px;
+}
+
+.ctrlitem td {
+	padding: 3px;
+}
+
+.over {
+	color: #ffffff;
+}
+
+.over:hover {
+	color: #ffffff;
+}
+
+.rename-field {
+	display: none;
+}
+
+.filemanager-table {
+}
+
+.filelist-checkbox-header {
+	text-align: center;
+}
+.filelist-filename-header {
+	text-align: center;
+}
+.filelist-filesize-header {
+	text-align: center;
+}
+.filelist-filetype-header {
+	text-align: center;
+}
+.filelist-filedate-header {
+	text-align: center;
+}
+.filelist-filepermissions-header {
+	text-align: center;
+}
+.filelist-fileactions-header {
+	text-align: center;
+}
+
+.filelist-checkbox {
+	text-align: center;
+	width: 15px;
+}
+.filelist-filename {
+	text-align: left;
+	width: 200px;
+}
+.filelist-filesize {
+	text-align: right;
+	width: 75px;
+}
+.filelist-filetype {
+	text-align: left;
+	width: 75px;
+}
+.filelist-filedate {
+	text-align: right;
+	width: 130px;
+}
+.filelist-filepermissions {
+	font-family: Courier;
+	text-align: center;
+	width: 80px;
+}
+.filelist-fileactions {
+	text-align: center;
+	width: 150px;
+}
+
+.button-spacer {
+	margin: 2px 3px 0px 3px;
+	background: transparent;
+}
+
+#overlay {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+  filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  background: #ffffff;
+  display: none;
+}
+
+#messagebox {
+	position: absolute;
+	top: 100px;
+	left: 234px;
+  display: none;
+	background: #c0c0c0;
+	width: 300px;
+	height: 100px;
+}
+
+#message {
+	width: 300px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#loaderanim {
+	text-align: center;
+}
